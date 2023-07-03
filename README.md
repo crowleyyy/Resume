@@ -28,15 +28,7 @@
 
 
 
-  <h2>Installation</h2>
-
-  <p>If you wish to run this resume locally or customize it for your own use, follow these steps:</p>
-
-  <ol>
-    <li>Clone this repository to your local machine using <code>git clone https://github.com/your-username/coded-resume.git</code>.</li>
-    <li>Open the <code>index.html</code> file in your preferred web browser.</li>
-    <li>Customize the content and styling to match your own resume.</li>
-  </ol>
+  
 
   <h2>Contributing</h2>
 
