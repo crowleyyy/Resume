@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Jacob Crowley
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%    Email : \href{mailto:jmc3835@uncw.edu}{jmc3835@uncw.edu}\\
+%  Mobile : +1-980-329-0135 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Jacob Crowley} \\ \vspace{1pt}
+    \small 980-329-0135 $|$ \href{mailto:jmc3835@uncw.edu}{\underline{Jmc3835@uncw.edu}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/CrowleyJacob}} $|$
+    \href{https://github.com/...}{\underline{github.com/jake}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of North Carolina at Wilmington}{Wilmington, NC}
+      {Bachelor of Science in Business  Administration - Management Info Systems}{Aug. 2023 -- Expected (Dec. 2025)}
+    \resumeSubheading
+      {Cape Fear Community College}{Wilmington, NC}
+      {Associate's of Arts in Corporate Communication}{Aug. 2021 -- May 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Accountant}{Feb. 2022 -- Present}
+      {Titan Equipment Repair, LLC}{Charlotte, NC}
+      \resumeItemListStart
+        \resumeItem{SuccessfullyAimplemented QuickBooks, a web-based accounting software, to streamline financial processes and improve overall efficiency }
+        \resumeItem{Proficiently managed and tracked business expenses and customer payments, ensuring accurate recording and timely collection of revenue}
+        \resumeItem{Maintained comprehensive records of shipments, providing real-time tracking and facilitating effective inventory management}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {System Administrator}{Nov. 2021 -- Present}
+      {Titan Equipment Repair}{Charlotte, NC}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a robust database using MySQL, enabling efficient access to critical customer information, including serial numbers, service history, next annual service dates, parts ordered, and part receipt}
+        \resumeItem{Maintained and administered the database, resolving issues promptly and ensuring its optimal performance, reliability, and data integrity}
+        \resumeItem{Streamlined shipment information and tracking processes by developing and implementing efficient solutions, resulting in improved accuracy and timely delivery}
+      \resumeItemListEnd
+      
+
+    \resumeSubheading
+      {Valet Lead}{March. 2020 -- Present}
+      {Park, Inc.}{Charlotte, NC}
+      \resumeItemListStart
+        \resumeItem{Demonstrated exceptional customer service skills while efficiently managing valet operations, ensuring smooth vehicle drop-off and retrieval, and providing excellent service to customers}
+        \resumeItem{Played a key role in the implementation of a phone-based timeclock system, streamlining the check-in and check-out process for valet staff, resulting in improved timekeeping accuracy and efficiency}
+        \resumeItem{Attained a defensive driving certification and consistently practiced safe driving techniques, ensuring the safety of passengers, vehicles, and pedestrians in high-traffic and fast-paced environments}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Passenger Service Assistant}{July 2019 -- March 2020}
+      {Prospect Airport Services}{Charlotte, NC}
+      \resumeItemListStart
+        \resumeItem{Assisted wheelchair-bound and elderly passengers, providing reliable and efficient transport to their connecting flights}
+        \resumeItem{Utilized an app-based customer pickup schedule to optimize passenger assistance and ensure timely transfers}
+        \resumeItem{Held FAA certification for passenger service and adhered to international flight protocols}
+        \resumeItem{Collaborated with airport staff, airlines, and service providers to facilitate seamless passenger transfers}
+        \resumeItem{Maintained clear and effective communication throughout the process for efficient coordination}
+    
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Database for Titan Equipment Repair} $|$ \emph{MySQL, MySQL Workbench}}{Nov. 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{Created and implemented a robust MySQL database, optimizing data storage and retrieval}
+            \resumeItem{Improved functionality and user experience based on feedback and industry standards}
+            \resumeItem{Conducted regular database maintenance tasks, including performance optimization and security enhancements}
+            \resumeItem{Developed and implemented a comprehensive backup and disaster recovery strategy }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills And Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{: SQL, Excel,} \\
+     \textbf{Developer Tools:}{: MySQL, MySQL Workbench, Beekeeper Studio} \\
+     \textbf{Awards:}{: Deans List (Cape Fear Community College) - 2021 (Fall), 2022 (Fall and Spring), 2023 (Spring)} \\
+     \textbf{Recognition:}{: Prospect Airport Services - December 2019 Employee of The Month}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
